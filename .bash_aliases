@@ -1,13 +1,18 @@
+### GENERAL
 alias ls="ls -a"
 alias sf="cd ~/projects/sportfinder/www"
 alias home="cd ~"
+alias fixdate="sudo hwclock -s"
+
+### PROJECT
 alias ng="cd ~/projects/natagora"
 alias ge="cd ~/projects/goldeneye"
 alias geb="cd ~/projects/goldeneye/backend"
-alias fixdate="sudo hwclock -s"
 alias tulip="cd ~/projects/gaa/tulip"
 alias ss="cd ~/projects/gaa/sponsoring"
 alias ssb="cd ~/projects/gaa/sponsoring/backend"
+
+### DOCKER
 # Start the docker-compose stack in the current directory
 alias dcu="docker-compose up -d"
 
