@@ -1,16 +1,19 @@
 ### GENERAL
 alias ls="ls -a"
-alias sf="cd ~/projects/sportfinder/www"
 alias home="cd ~"
 alias fixdate="sudo hwclock -s"
 
 ### PROJECT
+alias sf="cd ~/projects/sportfinder/www"
 alias ng="cd ~/projects/natagora"
 alias ge="cd ~/projects/goldeneye"
 alias geb="cd ~/projects/goldeneye/backend"
 alias tulip="cd ~/projects/gaa/tulip"
 alias ss="cd ~/projects/gaa/sponsoring"
 alias ssb="cd ~/projects/gaa/sponsoring/backend"
+
+### GIT
+alias cleanBranches="git fetch --all --prune; git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -D;"
 
 ### DOCKER
 # Start the docker-compose stack in the current directory
